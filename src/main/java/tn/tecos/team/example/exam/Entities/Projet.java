@@ -1,4 +1,4 @@
-package tn.inetum.blm.example.exam.Entities;
+package tn.tecos.team.example.exam.Entities;
 
 import lombok.*;
 

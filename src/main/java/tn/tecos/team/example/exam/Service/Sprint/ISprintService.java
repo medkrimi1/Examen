@@ -1,9 +1,6 @@
-package tn.inetum.blm.example.exam.Service.Sprint;
+package tn.tecos.team.example.exam.Service.Sprint;
 
-import tn.inetum.blm.example.exam.Entities.Projet;
-import tn.inetum.blm.example.exam.Entities.Sprint;
-
-import javax.swing.*;
+import tn.tecos.team.example.exam.Entities.Sprint;
 
 public interface ISprintService {
     public Sprint addSprint (Sprint sprint);

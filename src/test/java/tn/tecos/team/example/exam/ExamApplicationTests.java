@@ -1,4 +1,4 @@
-package tn.inetum.blm.example.exam;
+package tn.tecos.team.example.exam;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

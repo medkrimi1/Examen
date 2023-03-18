@@ -1,9 +1,9 @@
-package tn.inetum.blm.example.exam.Service.User;
+package tn.tecos.team.example.exam.Service.User;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import tn.inetum.blm.example.exam.Entities.User;
-import tn.inetum.blm.example.exam.Repository.UserRepository;
+import tn.tecos.team.example.exam.Entities.User;
+import tn.tecos.team.example.exam.Repository.UserRepository;
 
 @Service
 @RequiredArgsConstructor

@@ -1,16 +1,12 @@
-package tn.inetum.blm.example.exam.Service.Projet;
+package tn.tecos.team.example.exam.Service.Projet;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import tn.inetum.blm.example.exam.Entities.Projet;
-import tn.inetum.blm.example.exam.Entities.Sprint;
-import tn.inetum.blm.example.exam.Repository.ProjetRepository;
-import tn.inetum.blm.example.exam.Repository.SprintRepository;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+import tn.tecos.team.example.exam.Entities.Projet;
+import tn.tecos.team.example.exam.Entities.Sprint;
+import tn.tecos.team.example.exam.Repository.ProjetRepository;
+import tn.tecos.team.example.exam.Repository.SprintRepository;
 
 @Service
 @RequiredArgsConstructor
