@@ -39,7 +39,7 @@ public class ProjetController {
     }
 
     @GetMapping("/projects/scrum-masters/{firstName}/{lastName}")
-    public List<Projet> getProjectsByScrumMaster(@PathVariable("firstName") String firstName, @PathVariable("lastName") String lastName) {
+    public List<Projet> getProjectsByScrumMaster(@PathVariable("firstName")  String firstName, @PathVariable("lastName") String lastName) {
         return projetimp.getProjectsByScrumMaster(firstName, lastName);
     }
 
