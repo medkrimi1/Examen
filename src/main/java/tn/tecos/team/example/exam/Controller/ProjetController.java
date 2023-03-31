@@ -33,13 +33,14 @@ public class ProjetController {
         return projetimp.getProjectById(projectId);
     }
 
+
     @GetMapping("/projects")
     public List<Projet> getAllCurrentProjects() {
         return projetimp.getAllCurrentProjects();
     }
 
     @GetMapping("/projects/scrum-masters/{firstName}/{lastName}")
-    public List<Projet> getProjectsByScrumMaster(@PathVariable("firstName")  String firstName, @PathVariable("lastName") String lastName) {
+    public List<Projet> getProjectsByScrumMaster(@PathVariable("firstName") String firstName, @PathVariable("lastName") String lastName) {
         return projetimp.getProjectsByScrumMaster(firstName, lastName);
     }
 
